@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+.container {
+    padding: 20px;
+}
+.title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.gifs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.gif-container {
+    text-align: center;
+}
+.gif-container img {
+    max-width: 200px;
+    height: auto;
+}
+.flowers {
+    max-width: 100%;
+    height: auto;
+}
+.gift-container {
+    margin: 20px 0;
+}
+.gift-container img {
+    max-width: 100px;
+    height: auto;
+    cursor: pointer;
+}
+.hidden-message {
+    display: none;
+    font-size: 1.5em;
+    color: red;
+    margin-top: 10px;
+}

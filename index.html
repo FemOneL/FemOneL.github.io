@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>З днем народження Солька!!</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script>
+        function showMessage() {
+            document.getElementById('gift').hidden = true;
+            document.getElementById('gift-title').hidden = true;
+            document.getElementById('hiddenMessage').style.display = 'block';
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">З днем народження Солька!!</div>
+        <img class="flowers" src="gifs/11065811_405fe.gif" alt="Квіти з написом 'З днем народження'">
+        <div class="gifs">
+            <div class="gif-container">
+                <div>це я</div>
+                <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="Танцюючий кіт">
+            </div>
+            <div class="gif-container">
+                <div>це ти</div>
+                <img src="https://media.giphy.com/media/mlvseq9yvZhba/giphy.gif" alt="Танцюючий кіт">
+            </div>
+        </div>
+    </div>
+    <div class="gift-container">
+        <div id="gift-title">нажми мене</div>
+        <img id="gift" src="gifs/5624392482_w640_h640_podarok-na-prazdnik.webp" alt="Подарунок" onclick="showMessage()">
+        <div id="hiddenMessage" class="hidden-message">Люблю тебе!</div>
+    </div>
+</body>
+
+</html>
